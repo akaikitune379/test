@@ -1,8 +1,10 @@
 #include <studio.h>
 
 int main(void){
-	int i =10;
-	printf("number: %d\n",i);
+	for(int i = 0;i < 5;++i){
+		printf("number %d");
+	}
+	printf("\n");
 		return 0;
 }
 
